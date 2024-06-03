@@ -11,13 +11,14 @@ public class NameChangedPipelineChatGptApplication {
 
 	@GetMapping("/htllo")
 	public String helloWorld(){
-		return "hello world";
+		return "hello worldsadasd";
 	}
 
 	@GetMapping("/hi")
 	public String hiWorld(){
 		return " hi world ";
 	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(NameChangedPipelineChatGptApplication.class, args);
 	}
