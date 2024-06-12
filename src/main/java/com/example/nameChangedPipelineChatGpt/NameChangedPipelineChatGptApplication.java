@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class NameChangedPipelineChatGptApplication {
 
-	@GetMapping("/htllo")
+	@GetMapping("/htll")
 	public String helloWorld(){
 		return "hello worldsadasd";
 	}
